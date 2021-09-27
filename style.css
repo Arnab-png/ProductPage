@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navBg{
+    background-color: rgb(33, 136, 110);
+    border-radius:0 0 1em 1em;
+}
+.footBg{
+    background-color: rgb(33, 136, 110);
+    border-radius:1em 1em 0 0;
+    position: relative;
+    bottom: 0 !important;
+}
+.navBar{
+    text-decoration: none !important;
+    color: blanchedalmond !important;
+    font-size: 30px;
+}
+.navLink{
+    margin: 1px 8px !important;
+    text-decoration: none !important;
+    color: black !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    transition: 0.3s;
+}
+.navLink:hover{
+    background-color: rgb(187, 156, 116);
+    opacity: 70%;
+    border-radius: 4em;
+    color: black;
+}
+.cardProd:hover {
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(0.97);
+}
+.checked {
+    color: orange;
+}
+.smallImg:hover{
+    background-color: #f5f0eb;
+    transition: 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.heightSet {
+    min-height: 520px !important;
+}

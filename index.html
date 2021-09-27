@@ -277,7 +277,7 @@
         else{
             document.getElementById("cartbutton").className="nav-link navLink";
             cart = JSON.parse(localStorage.getItem('cart'));
-            console.log(cart);
+            // console.log(cart);
         }
 
         addToCart = document.getElementById("addToCart");
@@ -287,9 +287,9 @@
             cart.qty = 1;
             cart.price = 18000;
             cart.product = 'Vivo V20 Pro | 5G';
-            console.log("Add To Cart clicked");
+            // console.log("Add To Cart clicked");
             localStorage.setItem('cart', JSON.stringify(cart));
-            console.log(cart);
+            // console.log(cart);
         }
 
         function buyNow() {
@@ -297,9 +297,9 @@
             cart.qty = 1;
             cart.price = 18000;
             cart.product = 'Vivo V20 Pro | 5G';
-            console.log("Buy Now clicked");
+            // console.log("Buy Now clicked");
             localStorage.setItem('cart', JSON.stringify(cart));
-            console.log(cart);
+            // console.log(cart);
         }
 
         function change(image) {
